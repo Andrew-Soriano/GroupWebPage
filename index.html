@@ -24,10 +24,23 @@
 <div id="bios" class="container">
     <!-- Each card represents an individual team member -->
     <div class="card">
-        <h2>John Doe</h2>
-        <p>Frontend Developer</p>
-        <button onclick="toggleBio('bio1')">Show Bio</button>
-        <p id="bio1" class="bio">John is a skilled frontend developer with 5 years of experience in creating responsive web applications.</p>
+        <img height=200 width=150 src="img/drew-avatar.jpg" alt="Drew's PFP" class="drew-avatar">
+        <h2>Drew VanDine</h2>
+        <p>Software Engineering Student</p>
+        <a target=_new href="https://github.com/Phqen1x"><img height="32" width="32" src="img/github-logo.png"/><br></a>
+        <button style="background-color:purple" onclick="toggleBio('img1'), toggleBio('img2'), toggleBio('img3'), toggleBio('img4')">Show Bio</button>
+        <div align="center">
+            <table>
+                <tr>
+                    <td><img id="img1" class="bio" height="100" width="100" src="img/linux-penguin-image.png" alt="Linux Penguin"></td>
+                    <td><img id="img2" class="bio" height="100" width="100" src="img/phoenix-image.png" alt="Linux Penguin"></td>
+                </tr>
+                <tr>
+                    <td><img id="img3" class="bio" height="100" width="100" src="img/ubuntu-image.png" alt="Ubuntu"></td>
+                    <td><img id="img4" class="bio" height="100" width="100" src="img/vim-image.png" alt="VIM"></td>
+                </tr>
+            </table>
+        </div>
     </div>
     <div class="card">
         <h2>Jane Smith</h2>
