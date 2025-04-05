@@ -24,10 +24,23 @@
 <div id="bios" class="container">
     <!-- Each card represents an individual team member -->
     <div class="card">
-        <h2>John Doe</h2>
-        <p>Frontend Developer</p>
-        <button onclick="toggleBio('bio1')">Show Bio</button>
-        <p id="bio1" class="bio">John is a skilled frontend developer with 5 years of experience in creating responsive web applications.</p>
+        <img height=200 width=150 src="img/drew-avatar.jpg" alt="Drew's PFP" class="drew-avatar">
+        <h2>Drew VanDine</h2>
+        <p>Software Engineering Student</p>
+        <a target=_new href="https://github.com/Phqen1x"><img height="32" width="32" src="img/github-logo.png"/><br></a>
+        <button style="background-color:purple" onclick="toggleBio('img1'), toggleBio('img2'), toggleBio('img3'), toggleBio('img4')">Show Bio</button>
+        <div align="center">
+            <table>
+                <tr>
+                    <td><img id="img1" class="bio" height="100" width="100" src="img/linux-penguin-image.png" alt="Linux Penguin"></td>
+                    <td><img id="img2" class="bio" height="100" width="100" src="img/phoenix-image.png" alt="Linux Penguin"></td>
+                </tr>
+                <tr>
+                    <td><img id="img3" class="bio" height="100" width="100" src="img/ubuntu-image.png" alt="Ubuntu"></td>
+                    <td><img id="img4" class="bio" height="100" width="100" src="img/vim-image.png" alt="VIM"></td>
+                </tr>
+            </table>
+        </div>
     </div>
     <div class="card">
         <h2>Andrew Soriano</h2>
@@ -44,10 +57,19 @@
         </p>
     </div>
     <div class="card">
-        <h2>Emily Johnson</h2>
+        <h2>Tareq Huda</h2>
         <p>UI/UX Designer</p>
         <button onclick="toggleBio('bio3')">Show Bio</button>
-        <p id="bio3" class="bio">Emily is a UI/UX designer with a passion for creating user-friendly interfaces.</p>
+
+        <div id="bio3" class="bio">
+        <p>Tareq is a UI/UX designer with a passion for creating user-friendly interfaces.</p>
+        <img src="IMG_20211012_162829.jpg" alt="A picture from google drive." width="200" height="300">
+            <p>My hobbies include mostly weight lifting.</p>
+            <img src="pexels-david-ramsamy-179321163-28805366.jpg" alt="Squats." width="200" height="300">
+            <img src="pexels-olly-3837781.jpg" alt="Squats." width="200" height="300">
+            <img src="pexels-victorfreitas-841130.jpg" alt="Squats." width="200" height="300">
+
+            </div>
     </div>
 </div>
 
@@ -55,6 +77,7 @@
 <div id="vision" class="container" style="display: none;">
     <h2>Our Mission Statement</h2>
     <p>We strive to create a collaborative, inclusive, and innovative environment where team members feel empowered to push boundaries and achieve excellence in their craft. Our mission is to deliver high-quality solutions that meet and exceed our clients' expectations.</p>
+    <p>Our mission as a team is to have a welcoming environment where all people feel heard. Here at code breakers we preach tolerance, acceptance, and respect as our fundamental values to work efficiently as a team and we set high expectations for ourselves.  </p>
 </div>
 
 <script src="script.js"></script> <!-- Link to external JavaScript file -->
